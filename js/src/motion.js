@@ -254,7 +254,7 @@ $(document).ready(function () {
           e: $(element),
           p: {translateX: translateX},
           o: {
-            duration: 200,
+            duration: 100,
             sequenceQueue: false
           }
         };
