@@ -86,15 +86,18 @@
 
 
 
+<meta name="description" content="12345678910111213141516171819def rev_h( head: Node ) -&amp;gt; Node:    pre = None    cur = head    while cur != None:        xnext = cur.next;        cur.next = pre        pre = cur        cur = xnext">
 <meta name="keywords" content="算法,面试题,leetcode,头条">
 <meta property="og:type" content="article">
 <meta property="og:title" content="头条面试题: 分组反转单向链表">
 <meta property="og:url" content="https://logic0.github.io/2019/08/27/interview-question-from-bytedance-1/index.html">
 <meta property="og:site_name" content="胖兔子兔胖">
+<meta property="og:description" content="12345678910111213141516171819def rev_h( head: Node ) -&amp;gt; Node:    pre = None    cur = head    while cur != None:        xnext = cur.next;        cur.next = pre        pre = cur        cur = xnext">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-08-27T12:13:53.569Z">
+<meta property="og:updated_time" content="2019-08-30T08:09:12.889Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="头条面试题: 分组反转单向链表">
+<meta name="twitter:description" content="12345678910111213141516171819def rev_h( head: Node ) -&amp;gt; Node:    pre = None    cur = head    while cur != None:        xnext = cur.next;        cur.next = pre        pre = cur        cur = xnext">
 
 
 
@@ -371,7 +374,7 @@
       
 
       
-        
+        <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">rev_h</span><span class="params">( head: Node )</span> -&gt; Node:</span></span><br><span class="line">    pre = <span class="keyword">None</span></span><br><span class="line">    cur = head</span><br><span class="line">    <span class="keyword">while</span> cur != <span class="keyword">None</span>:</span><br><span class="line">        xnext = cur.next;</span><br><span class="line">        cur.next = pre</span><br><span class="line">        pre = cur</span><br><span class="line">        cur = xnext</span><br><span class="line">    <span class="keyword">return</span> pre</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">rev_e</span><span class="params">( head: Node )</span> -&gt; Node:</span></span><br><span class="line">    pre = <span class="keyword">None</span></span><br><span class="line">    cur = head</span><br><span class="line">    <span class="keyword">while</span> cur != <span class="keyword">None</span>:</span><br><span class="line">        xnext = cur.next;</span><br><span class="line">        cur.next = pre</span><br><span class="line">        pre = cur</span><br><span class="line">        cur = xnext</span><br><span class="line">    <span class="keyword">return</span> pre,head</span><br></pre></td></tr></table></figure>
       
     </div>
     
